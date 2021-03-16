@@ -1,0 +1,137 @@
+:root {
+    --primary-dark: hsl(225, 75%, 25%);
+    --primary: hsl(225, 100%, 50%);
+    --primary-light: hsl(225, 50%, 75%);
+    --secondary-dark: hsl(200, 75%, 25%);
+    --secondary: hsl(200, 100%, 50%);
+    --secondary-light: hsl(200, 50%, 75%);
+    --light: hsl(225, 25%, 100%);
+    --mid: hsl(225, 0%, 50%);
+    --dark: hsl(225, 0%, 25%);
+    --text-color: hsl(225, 0%, 15%);
+    --shadow: 5px 5px 5px hsla(225, 0%, 25%, 0.50);
+}
+
+body {
+    font-size: 12pt;
+    font-family: 'Recursive', sans-serif;
+}
+
+header {
+    background-color: var(--secondary-dark);
+    color: var(--light);
+    height: 5em;
+    border: 3px;
+    border-style: solid;
+    border-color: var(--text-color);
+}
+
+section {
+    padding-top: 1em;
+}
+
+footer {
+    height: 7em;
+    background-color: var(--secondary-dark);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%
+}
+
+h1 {
+    font-size: 2.25em;
+}
+
+h2 {
+    width:100%;
+    padding-top: 1vh;
+    border-top: 3vh;
+    border-top-style: solid;
+    border-top-color: var(--secondary-light);
+}
+
+.width-90 {
+    width: 90%;
+}
+
+.width-60{
+    width: 60%;
+    padding-left: 17vw;
+    padding-right: 5vw;
+}
+
+.width-30{
+    width: 30%;
+}
+
+.box {
+    width:200px;
+    height:100px;
+    background-color: var(--secondary);
+    color: var(--light);
+    align-items: center;
+    margin-top: 3em;
+}
+
+.small-text {
+    font-size: 10pt;
+}
+
+.p-1 {
+    padding: 1em;
+}
+
+.p-2 {
+    padding: 1.5em;
+}
+
+.p-3 {
+    padding: 2em;
+}
+
+.p-a {
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.m-t {
+    margin-top: .25em;
+    margin-bottom: 0;
+}
+
+.center {
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-flex.start {
+    align-items: flex-start;
+}
+
+.d-flex.end {
+    align-items: flex-end;
+}
+
+.d-flex.stretch {
+    align-items: stretch;
+}
+
+.d-flex.space-between{
+    justify-content: space-between;
+}
+
+.d-flex.space-around {
+    justify-content: space-around;
+}
+
+.d-flex.justify-center{
+    justify-content: center;
+}
+
+.d-flex.column {
+    flex-direction: column;
+}
