@@ -29,11 +29,21 @@ header {
 }
 
 section {
+    width: auto;
     padding-top: 1.5em;
+    padding-left: 17vw;
+    padding-right: 5vw;
+    margin-right: 3vw;
 }
 
 article {
     padding-top: 3em;
+    width: 250px;
+    margin-right: 3vw;
+}
+
+.article-width {
+    width: 90%;
 }
 
 footer {
@@ -62,31 +72,17 @@ h2 {
     border-top-color: var(--secondary-light);
 }
 
-.width-90 {
-    width: 90%;
-}
-
-.width-60{
-    width: 60%;
-    padding-left: 17vw;
-    padding-right: 5vw;
-}
-
-.width-30{
-    width: 30%;
-}
-
 .box {
     width:200px;
     height:100px;
     background-color: var(--secondary);
     color: var(--light);
     align-items: center;
-    margin-top: 3em;
+    margin-top: 5vh;
 }
 
 .small-text {
-    font-size: 10pt;
+    font-size: 9pt;
 }
 
 .p-1 {
@@ -99,11 +95,6 @@ h2 {
 
 .p-3 {
     padding: 2em;
-}
-
-.p-a {
-    padding-left: 2vw;
-    padding-right: 2vw;
 }
 
 .m-t {
