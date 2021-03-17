@@ -15,6 +15,7 @@
 body {
     font-size: 12pt;
     font-family: 'Recursive', sans-serif;
+    margin: 0px;
 }
 
 header {
@@ -24,20 +25,20 @@ header {
     border: 3px;
     border-style: solid;
     border-color: var(--text-color);
-    border-top-left-radius: 5px;
-    border-top-left-radius: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 section {
     width: auto;
-    padding-top: 1.5em;
+    padding-top: 3vh;
     padding-left: 17vw;
     padding-right: 5vw;
     margin-right: 3vw;
 }
 
 article {
-    padding-top: 3em;
+    padding-top: 7vh;
     width: 250px;
     margin-right: 3vw;
 }
@@ -49,15 +50,13 @@ article {
 footer {
     height: 7em;
     background-color: var(--secondary-dark);
-    border: 3px;
+    border-top: 3px;
     border-style: solid;
     border-color: var(--text-color);
-    border-bottom-left-radius: 5px;
-    border-bottom-left-radius: 5px;
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%
+    width: 100%;
 }
 
 h1 {
